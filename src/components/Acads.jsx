@@ -64,7 +64,7 @@ function Acads() {
 {/* II Skill */}
         <div id= "skill" className="w-50"  data-aos="fade-up" data-aos-delay="600">
         <div id="skillset"className="w-30 h-12 pl-20">
-        <h1 style={{
+        <h1 id="st" style={{
         color:"white",
         fontFamily:"fragile",
         // fontWeight: "normal",

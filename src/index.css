@@ -187,6 +187,10 @@ margin-left: 45%;
     }
     #exp{
       width:100%;
+      margin-top: 25rem;
+    }
+    time{
+      font-size: 0.7rem !important;
     }
 
     #hobby{
@@ -235,14 +239,27 @@ margin-left: 45%;
       width:50%;
     }
     #txthead{
-      font-size:45px;
+      font-size:20px !important;
     }
     #infotxt{
       font-size:15px;
     }
+    #pic{
+    height:10rem;
+    width:10rem !important;
+    }
+    #blackbox{
+      width:10rem !important;
+    }
+    #hed{
+      font-size: 1rem !important;
+    }
     #canva{
       margin-left: 10%;
     }
+   #body{
+    margin-left: 8%;
+   }
     li{
       font-size: 1rem !important;
     }
@@ -274,11 +291,28 @@ margin-left: 45%;
       height:fit-content;
       padding-left:0 !important;
     }
+    .acads{
+      flex-flow:wrap;
+    }
     #edu{
-      width:30% !important;
+      width:100% !important;
+      margin-top: 4rem;
     }
     #skill{
-      width:70% !important;
+      width:100% !important;
+      margin-left: 0;
+      margin-top: -3rem;
+      padding-top: 0%;
+    }
+    #skillset{
+      margin-top: 0%;
+    }
+    .code{
+      margin-left: 4rem;
+    }
+    #st{
+      margin-left: 4rem !important;
+      margin-top: 0 !important;
     }
     #hobbies{
       width:min-content !important;
@@ -288,9 +322,11 @@ margin-left: 45%;
       height:fit-content;
       width:fit-content;
       margin-right: 2rem;
+      margin-top: 32rem;
     }
     #activities{
       margin-left:2rem;
+      margin-top: 30rem;
     }
     #hobimg{
      display:flex;

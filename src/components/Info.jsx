@@ -56,9 +56,9 @@ function Info() {
                <h1 id="hed">Contact</h1>
           
                  <div id="body">
-                 <i className="fa-regular fa-envelope mr-4"></i><span>vohratanya5@gmail.com</span>
+                 <i className="fa-regular fa-envelope mr-4 icon"></i><span>vohratanya5@gmail.com</span>
                  <br/>
-                 <i className="fa-solid fa-phone mr-4"></i><span>7878707864</span>
+                 <i className="fa-solid fa-phone mr-4 icon"></i><span>7878707864</span>
                  </div>
 
             </div>
