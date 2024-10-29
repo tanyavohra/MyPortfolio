@@ -1,0 +1,268 @@
+@import "tailwindcss/base"; 
+@import "tailwindcss/components"; 
+@import "tailwindcss/utilities";
+@font-face{
+  font-family:getaway;
+  src:url("./fonts/getaway.otf");
+}
+@font-face{
+  font-family:fragile;
+  src:url("./fonts/Fragille-Reguler.ttf");
+}
+/* hide page scrollbar */
+html { scrollbar-width: none; } 
+body { -ms-overflow-style: none; } 
+body::-webkit-scrollbar
+body::-webkit-scrollbar-button { display: none; } 
+/* end hide page scrollbar */
+#one{
+  height: fit-content;
+  
+}
+#logo{
+  font-family:"fragile";
+  font-weight:500;
+}
+#aboutme{
+  font-family:Montserrat;
+}
+#project{
+  font-family: Montserrat;
+}
+#contact{
+  font-family:Montserrat;
+}
+#mypic{
+  height:fit-content;
+  
+}
+
+#two{
+  height:fit-content;
+  background-image: 
+  url("/src/assets/bgone.png"),url("/src/assets/bg.png");
+
+  background-size: contain;
+  
+}
+#herotext{
+  margin-top: 10.2rem;
+  width:40rem;
+  height:fit-content;
+  padding-top: 2rem;
+  padding-bottom:2rem;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+#main{
+ 
+    background-size:contain;
+  
+}
+#mebtn{
+  margin-left: 50%;
+  background-color: #fdaf1c;
+  border-radius: 50%;
+  height:7rem;
+  width:7rem;
+  font-family:"Montserrat";
+  font-weight:700;
+  color:white;
+  margin-top: -2.3rem;
+ 
+
+}
+
+#three{
+  height:fit-content;
+}
+
+
+#txtbox{
+height: fit-content;
+}
+#txthead{
+  font-family:"Fragile";
+  /* font-weight:bold; */
+  font-size: 90px;
+  margin-bottom: 2rem;
+}
+#infotxt{
+  font-family: "Montserrat";
+  font-size:20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#link{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  z-index:1;
+ 
+}
+#blackbox{
+  z-index:1;
+  position: relative;
+}
+#hed{
+  color:white;
+  font-family: "fragile";
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  margin-left: 10rem;
+}
+#body{
+  color:white;
+  font-family: "Montserrat";
+  margin-left: 2rem;
+  padding-top: 2rem;
+  font-size: 17px;
+}
+
+#bday{
+  position: absolute;
+  z-index:2;
+  margin-top: 15rem;
+  margin-left: -4rem;
+  font-family: "Montserrat";
+}
+#location{
+  position: absolute;
+  z-index:2;
+  margin-top: 25rem;
+  margin-left:17rem;
+  font-family: "Montserrat";
+}
+#four{
+  z-index:0;
+  margin-top: -6rem;
+  height: fit-content;
+  background-image: url("/src/assets/resumesmol.png");
+  background-size:cover;
+}
+#skillset{
+  margin-top:20rem;
+}
+#exp{
+  position:absolute;
+  z-index:1;
+  height:35rem;
+  width:60%;
+  margin-top: -0.5rem;
+}
+#five{
+  position:relative;
+  z-index:-1;
+  height:fit-content;
+}
+#activities{
+  height:40rem;
+  margin-top:27rem;
+  margin-left: 4rem;
+}
+#hobby{
+  height:40rem;
+  padding-left:11.5rem;
+}
+#lang{
+  font-family: "Montserrat";
+  font-size:20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+#footer{
+display: flex;
+margin-left: 45%;
+}
+#six{
+  height: fit-content;
+}
+@media all and (max-width:800px){
+
+    .App{
+      width:fit-content;
+    }
+    
+    #bday{
+      margin-top: 30%;
+      margin-left: -5%;
+      
+    }
+    #location{
+      margin-top: 33%;
+      margin-left: 20%;
+    }
+    #hed{
+      
+      margin-left:30%;
+    }
+    #hobby{
+      padding-left:3rem;
+    }
+    #skill{
+      margin-left:-12rem;
+      width:50%;
+    }
+    #txthead{
+      font-size:45px;
+    }
+    #infotxt{
+      font-size:15px;
+    }
+    #canva{
+      margin-left: 10%;
+    }
+    li{
+      font-size: 1rem !important;
+    }
+    h1{
+      font-size:4vh !important;
+    }
+    h2{
+      font-size:2.5vh !important;
+    }
+    #herotext{
+      width:50%;
+      margin-top:10%;
+      padding-left:2%;
+    }
+    #imgp{
+      width:50%;
+    }
+    span{
+      font-size:0.7rem;
+    }
+    #mebtn{
+      height:5rem;
+      width:5rem;
+      font-size: 0.7rem !important;
+      margin-left:40%;
+    }
+    #skillset{
+      width:fit-content;
+      height:fit-content;
+      padding-left:0 !important;
+    }
+    #edu{
+      width:30% !important;
+    }
+    #skill{
+      width:70% !important;
+    }
+    #hobbies{
+      width:min-content !important;
+      height:fit-content;
+    }
+    #hobby{
+      height:fit-content;
+      width:fit-content;
+    }
+    #hobimg{
+     display:flex;
+     flex-flow:wrap;
+    }
+}
+
