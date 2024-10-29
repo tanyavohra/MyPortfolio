@@ -185,7 +185,35 @@ margin-left: 45%;
     .App{
       width:fit-content;
     }
-    
+    #exp{
+      width:100%;
+    }
+
+    #hobby{
+      margin-top: 29rem;
+    }
+   #paint{
+    height:3rem;
+   }
+   #sing{
+    height:3rem;
+   }
+   #write{
+    height:3rem;
+   }
+   .paint{
+    font-size: 1rem;
+   }
+   .sing{
+    font-size: 1rem;
+   }
+   .write{
+    font-size: 1rem;
+   }
+   .hob{
+    height:7rem;
+    width:5rem;
+   }
     #bday{
       margin-top: 30%;
       margin-left: -5%;
@@ -259,10 +287,28 @@ margin-left: 45%;
     #hobby{
       height:fit-content;
       width:fit-content;
+      margin-right: 2rem;
+    }
+    #activities{
+      margin-left:2rem;
     }
     #hobimg{
      display:flex;
      flex-flow:wrap;
     }
-}
-
+    #footer{
+      margin-left:35%;
+    }
+    p{
+      font-size:0.7rem !important    }
+    .git{
+       height:fit-content;
+       width:6rem;
+       font-size:0.5rem !important;
+      margin-left: -1rem;
+      }
+      .proj{
+        height: 450px !important;
+      }
+    
+  }

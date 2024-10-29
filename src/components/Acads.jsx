@@ -8,7 +8,7 @@ function Acads() {
   return (
 <div>
 {/* main */}
-<div id="main" className="flex flex-row justify-between mb-24"> 
+<div id="main" className="flex flex-row justify-between mb-24 acads"> 
 
 {/* I Education timline */}
 

@@ -19,7 +19,7 @@ function Exp() {
       {/* projects */}
       <div id="main" className="flex flex-row justify-evenly"> 
         <div className="bg-black" style={{height:"fit-content",width:"30%"}} data-aos="fade-right">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg"  style={{height:410}}>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg  proj"  style={{height:410}}>
   <img className="w-full" src={lms} alt="Learning Management System"/>
   <div className="px-6 pt-2 pb-3">
     <div className="font-bold text-l mb-2 text-white">LMS</div>
@@ -29,13 +29,13 @@ function Exp() {
   </div>
  <a href="https://github.com/tanyavohra/LMS.git">
  <div className="px-4">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2">View on Github</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 git">View on Github</span>
   </div>
  </a>
 </div>
         </div> 
         <div className="bg-black" style={{height:"fit-content",width:"30%"}} data-aos="fade-right">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg"  style={{height:410}}>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg  proj"  style={{height:410}}>
   <img className="w-full" src={durga} alt="Women's Safety"/>
   <div className="px-6 pt-2 pb-3">
     <div className="font-bold text-l mb-2 text-white">Durga</div>
@@ -45,13 +45,13 @@ function Exp() {
   </div>
   <a href="https://github.com/tanyavohra/Durga.git">
   <div className="px-4">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2">View on Github</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 git">View on Github</span>
   </div>
   </a>
 </div>
         </div> 
         <div className="bg-black" style={{height:"fit-content",width:"30%"}} data-aos="fade-right">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg"  style={{height:410}}>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg  proj"  style={{height:410}}>
   <img className="w-full" src={sahaay} alt="Farmer assistance "/>
   <div className="px-6 pt-2 pb-3">
     <div className="font-bold text-l mb-2 text-white">SAHAAY</div>

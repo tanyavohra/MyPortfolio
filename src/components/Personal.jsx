@@ -85,20 +85,20 @@ function Personal(){
          {/* txt */}
          <div style={{display:"flex",fontFamily:"Montserrat",fontSize:25,fontWeight:650}} className="mb-12" id="hobimg">
 
-         <div>
-         <img src={paint} className="h-24 mr-12"></img>
+         <div className="hob">
+         <img id="paint" src={paint} className="h-24 mr-12"></img>
          <br/>
-         <p className="h-24 mr-12">Art</p>
+         <p className="h-24 mr-12 paint">Art</p>
          </div>
-         <div>
-         <img src={sing} className="h-24 mr-12"></img>
+         <div  className="hob">
+         <img  id="sing" src={sing} className="h-24 mr-12"></img>
          <br/>
-         <p className="h-24 mr-12">Singing</p>
+         <p className="h-24 mr-12 sing">Singing</p>
          </div>
-         <div>
-         <img src={write} className="h-24 mr-12"></img>
+         <div  className="hob">
+         <img id="write" src={write} className="h-24 mr-12"></img>
          <br/>
-         <p className="h-24 mr-12">Writing</p>
+         <p className="h-24 mr-12 write">Writing</p>
          </div>
 
          </div>
