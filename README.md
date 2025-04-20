@@ -24,7 +24,7 @@ I am a Front-end Developer and a self taught Designer , sometimes I like to cons
 - Role: Front-end Developer,UI designer
 - Technologies Used: HTML,CSS,JS,PHP,SQL,ML
   
-### Dugra (https://github.com/tanyavohra/Durga.git)
+### Dugra
 - Description: Female Safety app on which women can rate locations based on it's safety for women and read reviews by other users of locations they wish to visit.
 - Role: Front-end Developer,UI designer
 - Technologies Used: HTML,CSS,JS,PHP,SQL,ML
