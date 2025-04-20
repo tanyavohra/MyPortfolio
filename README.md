@@ -12,7 +12,7 @@ Welcome to my portfolio! Here, you'll find a collection of my projects and skill
 I am a Front-end Developer and a self taught Designer , sometimes I like to consider myself an artist aswell. My passion lies in creating visually appealing and user-friendly websites.
 
 ## Skills
-- Languages: HTML, CSS, JavaScript
+- Languages: HTML, CSS, JavaScript , Python
 - Frameworks/Libraries: React.js
 - Tools: Git,Figma,Canva,VS code
 - Other Skills: UI/UX design
