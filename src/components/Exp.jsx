@@ -43,11 +43,7 @@ function Exp() {
     I worked as a Front-end Developer for a women’s safety website, while also designing its visual layout to create a user-friendly experience.
     </p>
   </div>
-  <a href="https://github.com/tanyavohra/Durga.git">
-  <div className="px-4">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2 git">View on Github</span>
-  </div>
-  </a>
+  
 </div>
         </div> 
         <div className="bg-black" style={{height:"fit-content",width:"30%"}} data-aos="fade-right">
